@@ -109,7 +109,7 @@ int main() {
         cin >> playAgain;
 
         if (playAgain == 'Y' || playAgain == 'y') {
-            game.resetBoard(); // Reset the game board for a new game
+            game.resetBoard();
         }
 
     } while (playAgain == 'Y' || playAgain == 'y');
